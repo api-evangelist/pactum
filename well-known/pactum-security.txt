@@ -1,0 +1,5 @@
+Contact: mailto:security@pactum.com
+Encryption: https://pactum.com/pgp-key.txt
+Canonical: https://pactum.com/.well-known/security.txt
+Policy: https://pactum.com/responsible-disclosure
+Expires: 2027-05-24T00:00:00.000Z

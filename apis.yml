@@ -1,7 +1,15 @@
 aid: pactum
 name: Pactum
-description: Pactum is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pactum is an AI procurement negotiation platform that deploys autonomous
+  agents to conduct commercial supplier negotiations at scale while enforcing
+  buyer-defined policies and guardrails. Its agent suite spans requisition
+  alignment and negotiation, tactical and post-sourcing sourcing, price-list,
+  discount, payment-terms, and rebate negotiations, letting enterprise
+  procurement teams reach agreements on long-tail spend that would otherwise go
+  unnegotiated. Pactum is a venture-backed enterprise SaaS company; as of this
+  profile it exposes no public developer API, so this record captures the
+  company's identity plus its published security, trust, and disclosure surface.
 url: https://raw.githubusercontent.com/api-evangelist/pactum/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://pactum.com/hubfs/pactum-symbol-beige.png
 tags:
 - Company
+- Procurement
+- Negotiation
+- Artificial Intelligence
+- Autonomous Agents
+- Sourcing
+- Supply Chain
+- Enterprise SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,32 @@ maintainers:
 common:
 - type: Website
   url: https://pactum.com/
+- type: Blog
+  url: https://pactum.com/blog
+- type: HelpCenter
+  url: https://docs.pactum.com/
+- type: StatusPage
+  url: https://pactum.com/uptime
+- type: TermsOfService
+  url: https://pactum.com/terms
+- type: PrivacyPolicy
+  url: https://pactum.com/privacy
+- type: TrustCenter
+  url: security/pactum-trust-center.yml
+- type: Compliance
+  url: https://pactum.com/security
+- type: Security
+  url: https://pactum.com/responsible-disclosure
+- type: SecurityTxt
+  url: well-known/pactum-security.txt
+- type: WellKnown
+  url: well-known/pactum-well-known.yml
+- type: DomainSecurity
+  url: security/pactum-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/pactum-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://pactum.com/security
+url: https://pactum.com/security
+certifications:
+- SOC 2
+- CSA STAR
+trust_center_url: https://trust.pactum.com/
+practices:
+- Annual third-party penetration testing
+- Data encryption at rest and in transit (TLS/SSL)
+- Vulnerability scanning and threat monitoring
+- Quarterly access reviews
+- Two-factor authentication and SSO
+evidence:
+- source: https://pactum.com/security
+  keywords:
+  - soc 2
+  - csa star
+  - trust center
+- source: https://trust.pactum.com/
+  keywords:
+  - trust center
