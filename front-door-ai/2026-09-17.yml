@@ -1,0 +1,27 @@
+# Front Door AI Index — pactum — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: pactum
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: pactum.com
+  final_host: pactum.com
+  ownership: own
+  owner: pactum
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 11
+  host_score: 11
+  density: 20.6
+  words: 534
+  tiers:
+    agentic: 4
+    core: 7
+    model: 0
+  ambiguous: 13
+  top_terms:
+    agent: 13
+    AI: 7
+    AI agent: 4
