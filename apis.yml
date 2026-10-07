@@ -68,6 +68,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://pactum.com/
+- type: Plans
+  url: plans/pactum-plans-pricing.yml
 - type: Website
   url: https://pactum.com/
 - type: Blog
